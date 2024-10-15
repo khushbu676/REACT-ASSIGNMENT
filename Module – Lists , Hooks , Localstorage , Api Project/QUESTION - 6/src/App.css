@@ -1,0 +1,26 @@
+.App {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Circle style */
+  .circle {
+    position: absolute;
+    width: 100px;
+
+    height: 100px;
+    background-color: #5bc0de;
+    border-radius: 50%;
+    border: 10px solid #0d6efd;
+    transition: left 0.05s ease-out, top 0.05s ease-out; 
+  }
+  
+
+
+  
