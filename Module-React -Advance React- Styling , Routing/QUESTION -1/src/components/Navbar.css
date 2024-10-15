@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.search-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.search-btn {
+  padding: 8px;
+  background-color: #00a86b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.icons-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.location-dropdown {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
