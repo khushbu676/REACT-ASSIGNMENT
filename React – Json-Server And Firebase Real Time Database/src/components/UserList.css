@@ -1,0 +1,71 @@
+/* src/components/UserList.css */
+
+.user-list-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .add-user-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .add-user-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .action-button {
+    padding: 8px 12px;
+    margin: 0 4px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .action-button.edit {
+    background-color: #17a2b8;
+  }
+  
+  .action-button.delete {
+    background-color: #dc3545;
+  }
+  
+  .action-button.view {
+    background-color: #28a745;
+  }
+  
+  .action-button.edit:hover {
+    background-color: #138496;
+  }
+  
+  .action-button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  .action-button.view:hover {
+    background-color: #218838;
+  }
+  
